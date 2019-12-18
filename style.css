@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "bafora_demoregular";
+  src: url("assets/fonts/bafora_regular_demo-webfont.woff2") format("woff2"),
+    url("assets/fonts/bafora_regular_demo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #c50e0e;
+  font-family: "bafora_demoregular", Arial, Helvetica, sans-serif;
+}
