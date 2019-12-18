@@ -19,3 +19,13 @@ body {
   background-color: #c50e0e;
   font-family: "bafora_demoregular", Arial, Helvetica, sans-serif;
 }
+.box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: #fb0f0f;
+  border: 5px solid #000;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 100px rgba(255, 255, 255, 1), 0 20px 50px rgba(0, 0, 0, 0.5);
+}
