@@ -15,9 +15,9 @@ This is my first project with pure HTML and CSS.
 - My "To-Do-List" :
   1. Create 2 accounts on LastPass and Toggl websites.
   2. Prepare GitHub and file system environment.
-  3. Design WareFrames for the project.
-  4. Make a research for new concepts.
-  5. Start to coding and try to solve the problems.
+  3. Design WireFrames for the project.
+  4. Research new concepts.
+  5. Start coding and try to solve the problems.
   6. Debug and test and find someone to check my project.
   7. publish the project to CodePen and to GitHub.
 
