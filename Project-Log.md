@@ -23,7 +23,7 @@ This is my first project with pure HTML and CSS.
 
 ## Wireframes
 
-<!--To do-->
+![Image of Wireframe](/home/dci-l207/Desktop/Hatem_First_Project/assets/images/20191218_105543.jpg)
 
 ## Time
 
