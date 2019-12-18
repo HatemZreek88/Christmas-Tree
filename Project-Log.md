@@ -4,7 +4,7 @@ Christmas Tree.
 
 ## Overview
 
-This is my first project with pure HTML and CSS.
+This is my first project with pure HTML and CSS. <!--to do-->
 
 ## Details
 
@@ -23,11 +23,11 @@ This is my first project with pure HTML and CSS.
 
 ## Wireframes
 
-![Image of Wireframe](https://github.com/HatemZreek88/Christmas-Tree/blob/master/assets/images/20191218_105543.jpg)
+![Image of Wireframe](assets/images/20191218_105543.jpg)
 
 ## Time
 
-- Estimated: 3 days --> 15 Uhr
+- Estimated: 3 days --> 15 Uhr <!--To do-->
 - Actual: <!--To do-->
 
 ## New skills
