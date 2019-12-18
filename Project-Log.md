@@ -23,7 +23,7 @@ This is my first project with pure HTML and CSS.
 
 ## Wireframes
 
-![Image of Wireframe](/home/dci-l207/Desktop/Hatem_First_Project/assets/images/20191218_105543.jpg)
+![Image of Wireframe](https://github.com/HatemZreek88/Christmas-Tree/blob/master/assets/images/20191218_105543.jpg)
 
 ## Time
 
