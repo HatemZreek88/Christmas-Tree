@@ -1,7 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @font-face {
   font-family: "bafora_demoregular";
-  src: url("bafora_regular_demo-webfont.woff2") format("woff2"),
-    url("bafora_regular_demo-webfont.woff") format("woff");
+  src: url("assets/fonts/bafora_regular_demo-webfont.woff2") format("woff2"),
+    url("assets/fonts/bafora_regular_demo-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+.snow {
+  background-color: aqua;
+  width: 100%;
+  height: 40vh;
+}
+.ground {
+  background-color: brown;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  position: relative;
+}
+
+.wood {
+  background-color: burlywood;
+  position: absolute;
+  clip-path: inset(5% 61% 0 10%);
+  width: 10%;
+  height: 20%;
+  bottom: 0;
+  right: 10%;
+}
+.triangle1 {
+  position: absolute;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 15%;
+  background-color: green;
+  height: 40%;
+  bottom: 18%;
+  right: 10%;
+}
+.triangle2 {
+  position: absolute;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 15%;
+  background-color: green;
+  height: 40%;
+  bottom: 30%;
+  right: 10%;
+}
+.triangle3 {
+  position: absolute;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 15%;
+  background-color: green;
+  height: 40%;
+  bottom: 40%;
+  right: 10%;
+}
+.house-part {
+  display: flex;
+  clip-path: inset(0 0 0 0);
+  background-color: black;
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+.window1,
+.window2 {
+  background-color: bisque;
+  clip-path: inset(0 0 0 0);
+  width: 20%;
+  height: 50%;
+  position: absolute;
+}
+.window1 {
+  top: 25%;
+  left: 10%;
+}
+.window2 {
+  top: 25%;
+  right: 10%;
+}
+.roof {
+  position: absolute;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: black;
+  width: 300px;
+  height: 50%;
+  top: 52px;
+  left: 260px;
+}
+.house {
+  display: flex;
 }
