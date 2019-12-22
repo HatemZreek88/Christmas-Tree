@@ -19,6 +19,15 @@ body {
   background-color: #c50e0e;
   font-family: "bafora_demoregular", Arial, Helvetica, sans-serif;
 }
+h2 {
+  margin: 0;
+  padding: 0 0 0 50px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 14em;
+  width: 50%;
+  text-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+}
 .box {
   position: relative;
   width: 500px;
@@ -35,15 +44,16 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 400px;
+  z-index: 1;
 }
-.box:before {
+.box::before {
   content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 80px;
-  background-color: #fff;
+  background: #fff;
 }
 .box:after {
   content: "";
@@ -53,8 +63,53 @@ body {
   transform: translate(-50%);
   width: 350px;
   height: 250px;
-  background-color: #fff;
+  background: #fff;
   z-index: 2;
   border-radius: 50%;
   background: linear-gradient(0deg, transparent, rgba(255, 255, 255, 0.5));
+}
+.snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(assets/images/snow.jpg);
+  z-index: 2;
+  mix-blend-mode: screen;
+}
+.snow:nth-child(1) {
+  animation: animate 10s linear infinite;
+}
+.snow:nth-child(2) {
+  animation: animate2 15s linear infinite;
+}
+.snow:nth-child(3) {
+  animation: animate 20s linear infinite;
+}
+.snow:nth-child(4) {
+  animation: animate2 14s linear infinite;
+}
+.snow:nth-child(5) {
+  animation: animate 16s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position-x: 50px;
+    background-position-y: 0;
+  }
+  100% {
+    background-position-x: 50px;
+    background-position-y: 600px;
+  }
+}
+@keyframes animate2 {
+  0% {
+    background-position-x: 100px;
+    background-position-y: 0;
+  }
+  100% {
+    background-position-x: 100px;
+    background-position-y: 600px;
+  }
 }
