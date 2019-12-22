@@ -28,7 +28,7 @@ A christmas tree with some animations.
 ## Time
 
 - Estimated: 5 days --> 10 Uhr
-- Actual: <!--To do-->
+- Actual: 7 Uhr, Wed: 4 Uhr, Sat: 2:30 Uhr, Sun: 30 Minutes.
 
 ## New skills
 
