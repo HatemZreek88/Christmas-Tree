@@ -45,3 +45,16 @@ body {
   height: 80px;
   background-color: #fff;
 }
+.box:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 350px;
+  height: 250px;
+  background-color: #fff;
+  z-index: 2;
+  border-radius: 50%;
+  background: linear-gradient(0deg, transparent, rgba(255, 255, 255, 0.5));
+}
