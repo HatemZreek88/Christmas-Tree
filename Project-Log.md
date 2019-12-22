@@ -23,7 +23,7 @@ This is my first project with pure HTML and CSS. <!--to do-->
 
 ## Wireframes
 
-![Image of Wireframe](assets/images/20191218_105543.jpg)
+![Image of Wireframe](assets/images/IMG-20191222-WA0009.jpg)
 
 ## Time
 
