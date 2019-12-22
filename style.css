@@ -9,16 +9,19 @@ body {
   align-items: center;
   flex-wrap: wrap;
   background-color: #c50e0e;
-  /* font-family: "bafora_demoregular", Arial, Helvetica, sans-serif; */
+  font-family: "Crimson Text", Arial, Helvetica, sans-serif;
 }
 h2 {
   margin: 0;
   padding: 0 0 0 50px;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
-  font-size: 14em;
+  font-size: 10em;
   width: 50%;
   text-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+}
+.special-letter {
+  color: #034603dc;
 }
 .box {
   position: relative;
