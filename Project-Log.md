@@ -4,7 +4,7 @@ Christmas Tree.
 
 ## Overview
 
-This is my first project with pure HTML and CSS. <!--to do-->
+A christmas tree with some animations.
 
 ## Details
 
@@ -27,20 +27,16 @@ This is my first project with pure HTML and CSS. <!--to do-->
 
 ## Time
 
-- Estimated: 3 days --> 15 Uhr <!--To do-->
+- Estimated: 5 days --> 10 Uhr
 - Actual: <!--To do-->
 
 ## New skills
 
-(what did you research for this project?) <!-- to do-->
-
-## Challenges + lessons learned
-
-(What didn't go well? How would you advise future-you so it goes better next time?) <!--to do-->
+@keyframes, animation property, transform property, how to make many layers of images.
 
 ## Achievements
 
-(What did you do this time that was an improvement on last time? Acknowledge your progress, you've earned it!)<!--to do-->
+I learned how to deal with animations with pure CSS by playing with the key-frames query.
 
 ## Buddy sign-off
 
